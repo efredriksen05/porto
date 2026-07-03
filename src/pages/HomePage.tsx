@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Play } from "lucide-react";
 import "./HomePage.css";
 export default function HomePage(){
     const bgColors = ['#A9D862', '#E2D762', '#E19AC0'];
@@ -38,8 +39,8 @@ export default function HomePage(){
                     <button onClick={previousColor} className="invert">
                         <img src="skip-back.svg" alt="skip back icon" />
                     </button>
-                    <button className="bg-white rounded-3xl p-2 mx-4">
-                        <img src="play.svg" alt="play icon" />
+                    <button className="bg-white rounded-3xl p-2 mx-4" style={{color : bgColors[currentColorIndex]}}>
+                        <Play size={24}/>
                     </button>
                     <button onClick={nextColor} className="invert">
                         <img src="skip-forward.svg" alt="skip forward icon" />
