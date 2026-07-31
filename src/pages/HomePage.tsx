@@ -27,9 +27,9 @@ export default function HomePage(){
                 <div className="flex flex-col items-center justify-center h-screen z-20">
                     <img src="/signature.png" alt="signatur" className="w-xl z-30 block"/>
                     <div className="buttons flex flex-row gap-10">
-                        <button className="btn">LinkedIn</button>
-                        <button className="btn">GitHub</button>
-                        <button className="btn">CV</button>
+                        <a href="https://www.linkedin.com/in/emma-fredriksen" target="_blank" rel="noopener noreferrer" className="links"> LinkedIn</a>
+                        <a href="https://github.com/efredriksen05" target="_blank" rel="noopener noreferrer" className="links"> GitHub</a>
+                        <a href="/CV.pdf" target="_blank" rel="noopener noreferrer" className="links"> CV</a>
                     </div>
 
                 </div>
