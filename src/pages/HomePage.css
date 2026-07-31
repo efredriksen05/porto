@@ -8,13 +8,22 @@
     filter: blur(60px);
 }
 
+.btn{
+    width: 7rem;
+    padding: 10px;
+    text-align: center;
+    color:rgb(231, 61, 126);
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
 .background {
     position: absolute;
     inset: 0;
     z-index: 0;
 }
 
-.content {
+.hero {
     position: relative;
     z-index: 1;
 }
