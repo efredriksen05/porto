@@ -1,11 +1,30 @@
-import {Route, Routes} from 'react-router-dom'
-import HomePage from './pages/HomePage'
+import Navbar from "./components/Navbar";
+import HeroPage from "./pages/HeroPage";
+import AboutPage from "./pages/AboutPage";
+import ExperiencePage from "./pages/ExperiencePage";
+import ProjectPage from "./pages/ProjectPage";
 
-export default function App(){
+
+export default function App() {
   return (
-    
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-    </Routes>
-  )
+    <>
+      <Navbar />
+      <main>
+        <section id="home">
+          <HeroPage />
+        </section>
+
+        <section id="about">
+          <AboutPage />
+        </section>
+
+        <section id="experience">
+          <ExperiencePage />
+        </section>
+        <section id="projects">
+          <ProjectPage />
+        </section>
+      </main>
+    </>
+  );
 }

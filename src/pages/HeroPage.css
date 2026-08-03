@@ -1,0 +1,24 @@
+.links{
+    width: 7rem;
+    padding: 10px;
+    text-align: center;
+    color: var(--current-color);
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+.links:hover{
+    color: white;
+    background-color: var(--current-color);
+}
+
+.background {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.hero {
+    position: relative;
+    z-index: 1;
+}
