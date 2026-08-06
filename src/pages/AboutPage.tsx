@@ -4,7 +4,7 @@ export default function AboutPage(){
             <div className="about flex flex-row h-screen">
                 <div className="left flex-1 m-20">
                     <h1 style={{color: "var(--current-color)"}}>About me</h1>
-                    <p className="py-10 pr-10 text-black text-xl">I’m a 20-year-old Computer Science student passionate about creating solutions that make a real impact. I especially enjoy building projects that are both fun and useful.
+                    <p className="py-10 pr-10 text-black text-xl">I’m a 21-year-old Computer Science student passionate about creating solutions that make a real impact. I especially enjoy building projects that are both fun and useful.
                         I chose this path because I love seeing my creations in action and knowing they make a difference for others.
                     </p>
                     <br />
