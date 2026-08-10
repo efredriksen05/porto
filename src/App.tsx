@@ -3,6 +3,7 @@ import HeroPage from "./pages/HeroPage";
 import AboutPage from "./pages/AboutPage";
 import ExperiencePage from "./pages/ExperiencePage";
 import ProjectPage from "./pages/ProjectPage";
+import Footer from "./components/Footer";
 
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
           <ProjectPage />
         </section>
       </main>
+      <Footer />
     </>
   );
 }
