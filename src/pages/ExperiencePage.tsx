@@ -1,6 +1,8 @@
 import Timeline from "../components/Timeline";
 import { timelineData } from "../timelineData";
 
+import "./ExperiencePage.css"
+
 export default function ExperiencePage() {
     return (
         <div className="w-full h-full">
@@ -15,7 +17,33 @@ export default function ExperiencePage() {
                     </div>
                 </div>
             </div>
-            <div style={{ backgroundColor: "var(--current-color)" }} className="w-screen h-24"></div>
+            <div
+            style={{ backgroundColor: "var(--current-color)" }}
+            className="w-screen h-24 overflow-hidden flex items-center"
+            >
+            <div className="marquee-track">
+                <div className="marquee-content">
+                <span>Emma Fredriksen</span>
+                <span>★</span>
+                <span>Drammen & Trondheim</span>
+                <span>★</span>
+                <span>Emma Fredriksen</span>
+                <span>★</span>
+                <span>Drammen & Trondheim</span>
+                <span>★</span>
+                </div>
+
+                <div className="marquee-content" aria-hidden="true">
+                <span>Emma Fredriksen</span>
+                <span>★</span>
+                <span>Drammen & Trondheim</span>
+                <span>★</span>
+                <span>Emma Fredriksen</span>
+                <span>★</span>
+                <span>Drammen & Trondheim</span>
+                </div>
+            </div>
+            </div>
         </div>
     )
 }
