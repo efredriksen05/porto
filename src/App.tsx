@@ -1,31 +1,50 @@
+import { Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
 import HeroPage from "./pages/HeroPage";
 import AboutPage from "./pages/AboutPage";
 import ExperiencePage from "./pages/ExperiencePage";
-import ProjectPage from "./pages/ProjectPage";
 import Footer from "./components/Footer";
-
+import NewProjectPage from "./pages/NewProjectPage";
+import ProjectPage from "./pages/ProjectPage";
 
 export default function App() {
   return (
     <>
       <Navbar />
-      <main>
-        <section id="home">
-          <HeroPage />
-        </section>
 
-        <section id="about">
-          <AboutPage />
-        </section>
+      <div className="flex-1">
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <main>
+                <section id="home">
+                  <HeroPage />
+                </section>
 
-        <section id="experience">
-          <ExperiencePage />
-        </section>
-        <section id="projects">
-          <ProjectPage />
-        </section>
-      </main>
+                <section id="about">
+                  <AboutPage />
+                </section>
+
+                <section id="experience">
+                  <ExperiencePage />
+                </section>
+
+                <section id="newproject">
+                  <NewProjectPage />
+                </section>
+              </main>
+            }
+          />
+
+          <Route
+            path="/projects/:slug"
+            element={<ProjectPage />}
+          />
+        </Routes>
+      </div>
+
       <Footer />
     </>
   );

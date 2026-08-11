@@ -19,7 +19,7 @@ export default function ProjectCard({ project }: Props) {
                         {project.title}
                     </h2>
 
-                    <p className="mt-4 text-gray-600">
+                    <p className="pt-4 text-gray-600">
                         {project.description}
                     </p>
 
@@ -32,7 +32,7 @@ export default function ProjectCard({ project }: Props) {
                                 {tech}
                             </span>
                         ))}
-                        <div className="mt-auto flex justify-start">
+                        <div className="mt-auto flex justify-end">
                             <a href={project.link} className="flex text-white w-18 h-8 items-center justify-center rounded-2xl" style={{backgroundColor: "var(--current-color)"}}>View</a>
                         </div>
                     </div>
