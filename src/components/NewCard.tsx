@@ -22,7 +22,7 @@ export default function NewCard({ project }: Props) {
 
       <div className="content flex justify-between">
         <div className="left">
-            <h2 className="text-black text-3xl py-2">
+            <h2 className="text-black text-xl md:text-3xl py-2">
                 {project.title}
             </h2>
             <p className="text-black">

@@ -15,7 +15,7 @@ export default function ProjectPage() {
   }
 
   return (
-    <main className="p-10 pt-20 flex gap-16 h-fit w-full items-center justify-center">
+    <main className="p-10 md:pt-20 flex flex-col md:flex-row gap-16 h-fit w-full items-center justify-center">
         <div className="left flex-2">
           <img
             src={project.pic}
