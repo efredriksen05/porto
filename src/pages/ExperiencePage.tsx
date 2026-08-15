@@ -1,21 +1,27 @@
 import Timeline from "../components/Timeline";
 import { timelineData } from "../timelineData";
 
+import { ArrowRight } from "lucide-react";
+
 import "./ExperiencePage.css"
 
 export default function ExperiencePage() {
     return (
         <div className="w-full h-full">
-            <div className="experience p-20">
+            <div className="experience p-8 md:p-20">
                 <h1 style={{ color: "var(--current-color)" }} className="text-4xl">Experience</h1>
-                <div className="timeline flex flex-row mt-4">
-                    <div className="left flex-1 h-96 flex flex-col">
-                        <h2 className="text-[18rem] text-black leading-none end">20</h2>
+                <div className="timeline flex md:flex-row mt-4">
+                    <div className="collapse w-0 md:visible md:left md:flex-1 md:h-96 md:flex md:flex-col">
+                        <h2 className="md:text-9xl md:text-[18rem] text-black leading-none end">20</h2>
                     </div>
-                    <div className="right flex-2">
+                    <div className="right flex-2 min-w-0">
                         <Timeline items={timelineData} />
                     </div>
                 </div>
+            <div className="text-black flex gap-3 visible md:hidden">
+                <p>Swipe</p>
+                <ArrowRight />
+            </div>
             </div>
             <div
             style={{ backgroundColor: "var(--current-color)" }}
