@@ -3,9 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import HeroPage from "./pages/HeroPage";
 import AboutPage from "./pages/AboutPage";
-import ExperiencePage from "./pages/ExperiencePage";
+// import ExperiencePage from "./pages/ExperiencePage";
 import Footer from "./components/Footer";
-import NewProjectPage from "./pages/NewProjectPage";
+// import NewProjectPage from "./pages/NewProjectPage";
 import ProjectPage from "./pages/ProjectPage";
 
 export default function App() {
@@ -27,13 +27,13 @@ export default function App() {
                   <AboutPage />
                 </section>
 
-                <section id="experience">
+                {/* <section id="experience">
                   <ExperiencePage />
-                </section>
+                </section> */}
 
-                <section id="newproject">
+                {/* <section id="newproject">
                   <NewProjectPage />
-                </section>
+                </section> */}
               </main>
             }
           />

@@ -13,7 +13,7 @@ export default function AboutPage(){
                     <button className="md:w-28 p-3 mt-8 md:mt-16 ml-5 rounded-3xl" style={{background: "var(--current-color)"}}>Facebook</button>
 
                 </div>
-                <div className="right flex md:flex-1 justify-center items-cente">
+                <div className="right flex md:flex-1 justify-center items-center">
                     <img src="/about/photobooth.png" alt="" className="w-8/12 md:w-6/12 h-auto md:h-10/12 rotate-4 md:rotate-6 py-10"/>
                 </div>
             </div>
