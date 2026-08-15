@@ -31,7 +31,7 @@ export default function App() {
                   <ExperiencePage />
                 </section>
 
-                <section id="newproject">
+                <section id="projects">
                   <NewProjectPage />
                 </section>
               </main>

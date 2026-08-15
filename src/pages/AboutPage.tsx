@@ -16,7 +16,7 @@ export default function AboutPage(){
                     </p>
                     <div className="mt-8 md:mt-16">
                         <a href="https://appkom.no/" className="md:w-28 px-4 py-3 rounded-3xl" style={{background: "var(--current-color)"}}>Appkom</a>
-                        <a href="#newproject" className="md:w-28 ml-5 px-4 py-3 mt-8 md:mt-16 rounded-3xl" style={{background: "var(--current-color)"}}>Projects</a>
+                        <a href="#projects" className="md:w-28 ml-5 px-4 py-3 mt-8 md:mt-16 rounded-3xl" style={{background: "var(--current-color)"}}>Projects</a>
                     </div>
 
                 </div>
