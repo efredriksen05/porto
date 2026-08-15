@@ -5,7 +5,8 @@ export interface ProjectItem {
     product: string;
     description: string;
     tech: string[];
-    link: string;
+    weblink: string;
+    githublink: string;
 }
 
 export const projectData: ProjectItem[] = [
@@ -16,7 +17,8 @@ export const projectData: ProjectItem[] = [
         product: "Personal portfolio",
         description: "My personal website developed to highlight my skills, projects, and experience",
         tech: ["React", "Vite", "Tailwind", "TypeScript"],
-        link: "https://github.com/efredriksen05/porto"
+        weblink:"",
+        githublink: "https://github.com/efredriksen05/porto"
     },
     {
         pic: "/projects/opplist.png",
@@ -25,16 +27,18 @@ export const projectData: ProjectItem[] = [
         product: "Shared point list",
         description: 'Opplist is a casual hobby project made for my friend group where we give each other points every time someone is being an "opp"',
         tech: ["React", "Firebase", "Tailwind"],
-        link: "https://github.com/efredriksen05/opplist"
+        weblink:"https://opplist.vercel.app/",
+        githublink: "https://github.com/efredriksen05/opplist"
     },
     {
-        pic:"/projects/bla.png",
+        pic:"/projects/digdog.png",
         title:"DigDog",
         slug: "dog",
         product: "Platform for digital dogshows",
         description: "Platform for digital dogshows, where users can participate in dogshows without being present. Competitors can share pictures, enter competitions, create their own profile and like and comment on other users posts. Built as a project for the course TDT4140 Program development at NTNU",
         tech: ["React", "TypeScript", "Tailwind", "PocketBase"],
-        link: "https://github.com/efredriksen05/Digdog"
+        weblink:"",
+        githublink: "https://github.com/efredriksen05/Digdog"
     },
     {
         pic:"/projects/realfagskjelleren.png",
@@ -43,7 +47,8 @@ export const projectData: ProjectItem[] = [
         product: "Website for studentbar",
         description: "Website for the studentbar Realfagskjelleren. Developed through Appkom",
         tech:["React"],
-        link: "https://github.com/appKom/Realfagkjelleren-frontend"
+        weblink:"https://realfagkjelleren.vercel.app/",
+        githublink: "https://github.com/appKom/Realfagkjelleren-frontend"
     },
     {
         pic:"/projects/musicrating.png",
@@ -52,7 +57,8 @@ export const projectData: ProjectItem[] = [
         product: "Application for rating music",
         description: "Application that allows users to rate songs and share their opinions with other users. Built as a project for the course IT1901 at NTNU",
         tech: ["Java", "JavaFX"],
-        link: "https://github.com/efredriksen05/Music-Rating"
+        weblink:"",
+        githublink: "https://github.com/efredriksen05/Music-Rating"
     },
     {
         pic:"/projects/doodle.png",
@@ -61,6 +67,7 @@ export const projectData: ProjectItem[] = [
         product: "Digital drawing tool",
         description: "Doodle is an application where users can draw pixel paintings and save them as JSON files. Developed as a project in TDT4100 Object Oriented Programming at NTNU",
         tech: ["Java", "JavaFX"],
-        link: "https://github.com/efredriksen05/Doodle"
+        weblink:"",
+        githublink: "https://github.com/efredriksen05/Doodle"
     }
 ];

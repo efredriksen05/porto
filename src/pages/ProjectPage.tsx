@@ -40,14 +40,19 @@ export default function ProjectPage() {
                 ))}
 
                 <p className="text-[#989898] pt-5">Links</p>
-                <div className="flex gap-2 pt-4 text-black">
-                    <Link />
-                    <a href={project.link} className="text-black">{project.link}</a>
-                </div>
-                <div className="flex gap-2 pt-2">
-                    <img src="/github.svg" alt="" className="w-6" />
-                    <a href={project.link} className="text-black">{project.link}</a>
-                </div>
+                {(project.weblink && project.githublink) && (
+                    <div className="flex gap-2 pt-4 text-black">
+                        <Link />
+                        <a href={project.weblink} className="text-black">{project.weblink}</a>
+                    </div>
+                )}
+                {project.githublink && (
+                    <div className="flex gap-2 pt-2">
+                        <img src="/github.svg" alt="" className="w-6" />
+                        <a href={project.githublink} className="text-black">{project.githublink}</a>
+                    </div>
+                )}
+
             </div>
 
         </div>
