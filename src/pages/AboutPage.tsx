@@ -4,14 +4,14 @@ export default function AboutPage(){
             <div className="about flex flex-col md:flex-row min-h-screen w-full">
                 <div className="left flex-1 m-8 md:m-20">
                     <h1 style={{color: "var(--current-color)"}}>About me</h1>
-                    <p className="py-2 md:py-10 text-black text-sm md:text-xl">
+                    <p className="py-2 md:py-10 text-black text-lg md:text-xl">
                         My name is Emma Fredriksen, and I am a computer science student at NTNU. 
                         I am currently in my third year and will complete my bachelor’s degree this spring!
                         Alongside my studies, I am actively involved in student volunteering. 
                         I currently serve as the leader of "Applikasjonskomiteen", a technical committee within Online, the student association for computer science students at NTNU.
                     </p>
                     <br />
-                    <p className="text-black text-sm md:text-xl">
+                    <p className="text-black text-lg md:text-xl">
                         I have participated in several group projects as part of various courses at NTNU and have a few hobby projects of my own.
                     </p>
                     <div className="mt-8 md:mt-16">

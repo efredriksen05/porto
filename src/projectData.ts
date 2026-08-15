@@ -15,7 +15,7 @@ export const projectData: ProjectItem[] = [
         title: "Portfolio",
         slug: "porto",
         product: "Personal portfolio",
-        description: "My personal website developed to highlight my skills, projects, and experience",
+        description: "My personal website developed to highlight my skills, projects, and experience. The page is still under development and contains a few hidden features, the color scheme can for example be changed by pressing space!",
         tech: ["React", "Vite", "Tailwind", "TypeScript"],
         weblink:"",
         githublink: "https://github.com/efredriksen05/porto"
@@ -45,8 +45,8 @@ export const projectData: ProjectItem[] = [
         title:"Realfagskjelleren",
         slug: "real",
         product: "Website for studentbar",
-        description: "Website for the studentbar Realfagskjelleren. Developed through Appkom",
-        tech:["React"],
+        description: "Website for the studentbar Realfagskjelleren. The page is still under development and is a part of Appkom's projects",
+        tech:["React", "Tailwind"],
         weblink:"https://realfagkjelleren.vercel.app/",
         githublink: "https://github.com/appKom/Realfagkjelleren-frontend"
     },
