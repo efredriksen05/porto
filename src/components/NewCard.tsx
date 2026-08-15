@@ -6,7 +6,7 @@ interface Props {
 
 export default function NewCard({ project }: Props) {
   return (
-    <div className="w-lg py-2">
+    <div className="max-w-84 md:max-w-lg py-2">
       <img
         src={project.pic}
         alt={project.title}

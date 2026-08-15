@@ -4,12 +4,12 @@ import NewCard from "../components/NewCard";
 
 export default function NewProjectPage() {
   return (
-    <div className="mx-20 py-20">
+    <div className="mx-8 md:mx-20 py-20">
       <h1 style={{ color: "var(--current-color)" }}>
         Projects
       </h1>
 
-      <div className="flex flex-wrap gap-14 mt-14">
+      <div className="flex flex-wrap gap-10 md:gap-14 mt-14">
         {projectData.map((project) => (
           <Link
             key={project.title}

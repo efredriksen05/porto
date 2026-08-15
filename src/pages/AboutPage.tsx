@@ -14,7 +14,7 @@ export default function AboutPage(){
 
                 </div>
                 <div className="right flex md:flex-1 justify-center items-center">
-                    <img src="/about/photobooth.png" alt="" className="w-8/12 md:w-6/12 h-auto md:h-10/12 rotate-4 md:rotate-6 py-10"/>
+                    <img src="/about/photobooth.png" alt="" className="w-8/12 md:w-6/12 h-auto md:h-11/12 rotate-4 md:rotate-6 py-10"/>
                 </div>
             </div>
         </div>
