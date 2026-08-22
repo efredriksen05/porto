@@ -17,7 +17,7 @@ export const projectData: ProjectItem[] = [
         product: "Personal portfolio",
         description: "My personal website developed to highlight my skills, projects, and experience. The page is still under development and contains a few hidden features, the color scheme can for example be changed by pressing space!",
         tech: ["React", "Vite", "Tailwind", "TypeScript"],
-        weblink:"",
+        weblink:"https://emmafredriksen.vercel.app/",
         githublink: "https://github.com/efredriksen05/porto"
     },
     {
