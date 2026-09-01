@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 import { projectData } from "../projectData";
 
 import { Link } from "lucide-react";
-import { ChevronLeft } from "lucide-react";
 
 export default function ProjectPage() {
   const { slug } = useParams();
@@ -56,9 +55,6 @@ export default function ProjectPage() {
             </div>
 
         </div>
-        <button className="rounded-3xl my-10 p-2 text-xs md:hidden" style={{backgroundColor: "var(--current-color)"}} onClick={() => window.history.back()}>
-            <ChevronLeft />
-        </button>
     </main>
   );
 }
