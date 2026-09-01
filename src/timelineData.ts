@@ -9,6 +9,14 @@ export interface TimelineItem {
 
 export const timelineData: TimelineItem[] = [
     {
+        year: "26",
+        title: "Student Assistant",
+        logo: "/experience/NTNU-hovedlogo.png",
+        duration: "NTNU • AUG 2026 - D.D",
+        description: "Planned and coordinated the 2027 University Tour across Møre og Romsdal and Trøndelag. Responsible for organization, tour schedules, travel routes, and liaising with schools.",
+        invertInDark: false
+    },
+    {
         year: "25",
         title: "Student Ambassador",
         logo: "/experience/NTNU-hovedlogo.png",
@@ -36,7 +44,7 @@ export const timelineData: TimelineItem[] = [
         year: "22",
         title: "Kindergarden substitute",
         duration: "PROMISO • JUN 2022 - JUN 2023",
-        logo:"NTNU-hovedlogo.png",
+        logo:"../experience/Promiso-logo.png",
         description: "Temporary worker in a kindergarten with responsibility for supervision, play and activities. Experience with collaboration, communication and creating security with children.",
         invertInDark: false
     }

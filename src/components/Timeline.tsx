@@ -59,7 +59,7 @@ export default function Timeline({ items }: TimelineProps) {
                                 {item.year}
                             </div>
                             <div>
-                                <div className="flex flex-row w-80 md:w-96 justify-between">
+                                <div className="flex flex-row w-78 md:w-96 justify-between">
                                     <div>
                                         <h3 className="text-lg md:text-xl font-semibold">{item.title}</h3>
                                         <h5 className="py-2">{item.duration}</h5>
