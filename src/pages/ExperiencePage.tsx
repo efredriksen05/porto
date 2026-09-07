@@ -10,11 +10,14 @@ export default function ExperiencePage() {
         <div className="w-full h-full">
             <div className="experience p-8 md:p-20">
                 <h1 style={{ color: "var(--current-color)" }} className="text-4xl">Experience</h1>
-                <div className="timeline flex md:flex-row mt-4">
-                    <div className="collapse w-0 md:visible md:left md:flex-1 md:h-96 md:flex md:flex-col">
-                        <h2 className="md:text-9xl md:text-[18rem] text-black leading-none end">20</h2>
+                <div className="timeline flex mt-4 md:flex-row md:gap-2">
+                    <div className="hidden md:block shrink-0">
+                        <h2 className="text-[18rem] text-black leading-none">
+                            20
+                        </h2>
                     </div>
-                    <div className="right flex-2 min-w-0">
+
+                    <div className="right flex-1 min-w-0">
                         <Timeline items={timelineData} />
                     </div>
                 </div>

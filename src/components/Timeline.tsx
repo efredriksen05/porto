@@ -50,7 +50,7 @@ export default function Timeline({ items }: TimelineProps) {
             <div className="flex flex-row md:flex-col gap-20 md:gap-9">
                 {loopItems.map((item, index) => (
                     <div>
-                        <div key={`${item.year}-${index}`} className="shrink-0 flex flex-col md:flex-row gap-6 md:gap-8 pr-10 md:py-20 items-start text-black border-r-2 md:border-r-0  md:border-t-2 border-[#D5D5D5]">
+                        <div key={`${item.year}-${index}`} className="flex flex-col md:flex-row gap-6 md:gap-8 pr-10 md:py-20 items-start text-black border-r-2 md:border-r-0  md:border-t-2 border-[#D5D5D5]">
                             <div
                                 className="text-6xl sm:text-[18rem] leading-none flex flex-row md:-translate-y-8"
                                 style={{ color: "var(--current-color)" }}
@@ -59,7 +59,7 @@ export default function Timeline({ items }: TimelineProps) {
                                 {item.year}
                             </div>
                             <div>
-                                <div className="flex flex-row w-78 md:w-96 justify-between">
+                                <div className="flex flex-row w-78 md:w-96 gap-8">
                                     <div>
                                         <h3 className="text-lg md:text-xl font-semibold">{item.title}</h3>
                                         <h5 className="py-2">{item.duration}</h5>
