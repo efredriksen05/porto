@@ -5,7 +5,7 @@ import HeroPage from "./pages/HeroPage";
 import AboutPage from "./pages/AboutPage";
 import ExperiencePage from "./pages/ExperiencePage";
 import Footer from "./components/Footer";
-import NewProjectPage from "./pages/NewProjectPage";
+import ProjectGalleryPage from "./pages/ProjectGalleryPage";
 import ProjectPage from "./pages/ProjectPage";
 
 export default function App() {
@@ -32,7 +32,7 @@ export default function App() {
                 </section>
 
                 <section id="projects">
-                  <NewProjectPage />
+                  <ProjectGalleryPage />
                 </section>
               </main>
             }

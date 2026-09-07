@@ -4,14 +4,16 @@ interface Props {
   project: ProjectItem;
 }
 
-export default function NewCard({ project }: Props) {
+export default function ProjectCard({ project }: Props) {
   return (
-    <div className="max-w-84 md:max-w-lg py-2">
+    <div className="w-full py-2">
       <img
         src={project.pic}
         alt={project.title}
         className="
           w-full
+          aspect-video
+          object-cover
           rounded-lg
           hover:scale-105
           transition-transform

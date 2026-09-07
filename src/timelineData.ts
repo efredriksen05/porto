@@ -20,7 +20,7 @@ export const timelineData: TimelineItem[] = [
         year: "25",
         title: "Student Ambassador",
         logo: "/experience/NTNU-hovedlogo.png",
-        duration: "NTNU • OKT 2025 - FEB 2026",
+        duration: "NTNU • OKT 2025 - D.D",
         description: "Represented NTNU on the University Tour 2026 in the Innland and Vestfold regions. Responsible for conducting presentations and lectures for over 750 students. Guided graduating students in their educational choices and provided information about study options and student life at NTNU.",
         invertInDark: false
     },
