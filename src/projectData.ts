@@ -26,7 +26,7 @@ export const projectData: ProjectItem[] = [
         slug: "opp",
         product: "Shared point list",
         description: 'Opplist is a casual hobby project made for my friend group where we give each other points every time someone is being an "opp"',
-        tech: ["React", "Firebase", "Tailwind"],
+        tech: ["React", "Supabase", "Tailwind"],
         weblink:"https://opplist.vercel.app/",
         githublink: "https://github.com/efredriksen05/opplist"
     },
@@ -56,7 +56,7 @@ export const projectData: ProjectItem[] = [
         slug: "music",
         product: "Application for rating music",
         description: "Application that allows users to rate songs and share their opinions with other users. Built as a project for the course IT1901 at NTNU",
-        tech: ["Java", "JavaFX"],
+        tech: ["Java","Springboot","JavaFX"],
         weblink:"",
         githublink: "https://github.com/efredriksen05/Music-Rating"
     },
