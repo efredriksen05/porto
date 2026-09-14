@@ -3,6 +3,7 @@
 :root {
   /* --bg: #A9D862; */
   --border: #e5e4e7;
+  --text: #ffffff;
   --code-bg: #f4f3ec;
   --accent: #aa3bff;
   --accent-bg: rgba(170, 59, 255, 0.1);
@@ -32,6 +33,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #ffffff;
+    --text: #ffffff;
     --border: #2e303a;
     --code-bg: #1f2028;
     --accent: #541e8a;
@@ -60,6 +62,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
+  color: white;
 }
 
 h1{
